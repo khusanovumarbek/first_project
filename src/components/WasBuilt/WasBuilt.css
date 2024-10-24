@@ -1,0 +1,61 @@
+.Container{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.WasBuilt .text h1{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.WasBuilt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons .vector{
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   position: relative;
+   left: 230px;
+   top: 200px;
+}
+.vector h1{
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343D;
+}
+.vector p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+.vector{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+.buton button{
+    width:165.54px;
+    height: 53px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;    
+    position: relative;
+    top: 220px;
+    left: 250px;
+}
